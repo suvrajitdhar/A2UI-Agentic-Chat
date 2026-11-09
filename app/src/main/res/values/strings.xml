@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">A2UI Agentic Chat</string>
+
+    <!-- Agent modes -->
+    <string name="mode_mock">Mock</string>
+    <string name="mode_hybrid">Hybrid</string>
+    <string name="mode_llm">LLM</string>
+    <string name="mode_mock_description">Scripted demos only. Deterministic and needs no API key, so it\'s ideal for live demos.</string>
+    <string name="mode_hybrid_description">Scripted demos for known prompts, the server\'s LLM for everything else.</string>
+    <string name="mode_llm_description">Every prompt goes to the server\'s LLM (Gemini, Claude or a custom model).</string>
+    <string name="agent_mode">Agent mode</string>
+
+    <!-- Home -->
+    <string name="home_title">A2UI Agentic Chat</string>
+    <string name="home_subtitle">An AI agent that answers with native Jetpack Compose UI, streamed over SSE using the A2UI protocol.</string>
+    <string name="home_launch_agent">Launch agent</string>
+    <string name="home_server">Agent server</string>
+    <string name="home_server_checking">Checking %1$s…</string>
+    <string name="home_server_online">Online · default mode %1$s</string>
+    <string name="home_server_llm_available">LLM: %1$s · %2$s</string>
+    <string name="home_server_llm_missing">No LLM configured: LLM prompts fall back to the scripted demos</string>
+    <string name="home_server_offline">Can\'t reach %1$s</string>
+    <string name="home_server_offline_hint">Start it with \"npm run mock\" in a2ui-agent-server.</string>
+    <string name="home_retry">Retry</string>
+
+    <!-- Chat -->
+    <string name="chat_title">Agent</string>
+    <string name="chat_navigate_back">Back</string>
+    <string name="chat_new_conversation">New conversation</string>
+    <string name="chat_change_mode">Change agent mode</string>
+    <string name="chat_input_hint">Ask the agent for any UI…</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_empty_title">What can I build for you?</string>
+    <string name="chat_empty_subtitle">Try one of these, or type your own request.</string>
+    <string name="chat_suggestion_hi">hi</string>
+    <string name="chat_suggestion_trip">Plan a trip to Lisbon</string>
+    <string name="chat_suggestion_heal">Self-heal demo</string>
+    <string name="chat_mode_changed">Mode set to %1$s. It applies from your next message.</string>
+    <string name="chat_thinking">Working…</string>
+    <string name="chat_error_generic">Something went wrong: %1$s</string>
+
+    <!-- A2UI media placeholders -->
+    <string name="a2ui_media_unsupported">Media playback isn\'t enabled in this POC</string>
+</resources>

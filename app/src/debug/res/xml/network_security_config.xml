@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Debug builds only: allow plain HTTP so the app can reach the local agent server
+    (http://10.0.2.2:3000 from the emulator, or a LAN IP from a physical device).
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

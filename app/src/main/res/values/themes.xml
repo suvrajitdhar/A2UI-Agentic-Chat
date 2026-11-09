@@ -1,0 +1,7 @@
+<resources>
+    <!--
+        Window theme only. All UI is Compose and styled by A2uiAgenticChatTheme (ui/theme/Theme.kt),
+        so no View-based Material library is needed.
+    -->
+    <style name="Theme.A2uiAgenticChat" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
